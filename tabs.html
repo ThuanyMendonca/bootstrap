@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Bootstrap Tabs</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<div class="container">
+		<div class="page-header">
+			<h1>Bootstrap Tabs</h1>
+			<p class="lead">Alterne facilmente entre conteúdos</p>
+		</div>
+		<!-- Criando as tabs -->
+		<ul class="nav nav-tabs" role="tablist">
+			<li class="nav-item"><a href="#info" class="nav-link active" role="tab" data-toggle="tab">Informações</a></li>
+			<li class="nav-item"><a href="#ava" class="nav-link" role="tab" data-toggle="tab">Avaliações</a></li>
+			<li class="nav-item"><a href="#comp" class="nav-link" role="tab" data-toggle="tab">Compre também</a></li>
+		</ul>
+
+		<!-- Conteúdo das tabs -->
+		<div class="tab-content">
+			<!-- Aba de informações -->
+			<div class="tab-pane active" role="tabpanel" id="info">
+				<h3>Informações</h3>
+				<p>Meu texto exemplo para a aba de informações.</p>
+			</div>
+			<!-- Aba de avaliações -->
+			<div class="tab-pane" role="tabpanel" id="ava">
+				<h3>Avaliações</h3>
+				<p>Meu texto exemplo para a aba de avaliações.</p>
+			</div>
+			<!-- Aba de Compre também -->
+			<div class="tab-pane" role="tabpanel" id="comp">
+				<h3>Compre também</h3>
+				<p>Meu texto exemplo para a aba de compre também.</p>
+			</div>
+
+		</div>
+
+	</div> <!--Fim container-->
+		
+
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
